@@ -1,0 +1,29 @@
+package testing;
+
+public class Access {
+//create a class in package 1 with 4 methods with each access specifier
+	
+	public int Addition3() {
+		return 5+4;
+	}
+	private int substraction3() {
+		return 10-6;
+	}
+	int multiplication3() {
+		return 10*7;
+	}
+	protected int Division3() {
+		return 100/50;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+      Access access= new Access();
+     System.out.println( access.Addition3());
+     System.out.println(access.substraction3());
+     System.out.println(access.multiplication3());
+     System.out.println(access.Division3());
+	}
+
+}

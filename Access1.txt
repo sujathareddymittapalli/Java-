@@ -1,0 +1,15 @@
+package testing;
+
+public class Access1 {
+//create another class in package1 itself and call those methods and see what is happening
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		      Access access= new Access();
+		     System.out.println( access.Addition3());
+		     System.out.println(access.substraction3());
+		     System.out.println(access.multiplication3());
+		     System.out.println(access.Division3());
+
+	}
+
+}

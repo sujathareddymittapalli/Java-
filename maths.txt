@@ -1,0 +1,42 @@
+package testing;
+
+public class Maths {
+/*Create 3 methods without parameters and return values
+               addition,subtraction,multiplication*/	
+     public int addition() {
+    	 return 50+60;
+    	 
+     }
+     public int subtraction() {
+    	 return 110-200;
+     }
+	public int multiplication() {
+		return 30*45;
+	}
+	
+	/*Create 3 methods with 2 parameters for each method and return values addition,subtraction,
+	  multiplication */
+	
+	public int addition1(int a,int b) {
+		return a+b;
+	}
+	public int subtraction1(int a,int b) {
+		return a-b;
+	}
+	public int multiplication1(int a,int b) {
+		return a*b;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   //Create main method and call the above methods and print the values 
+        Maths maths=new Maths();
+       System.out.println( maths.addition());
+       System.out.println(maths.subtraction());
+       System.out.println(maths.multiplication());
+       System.out.println(maths.addition1(15,30));
+       System.out.println(maths.subtraction1(50, 30));
+       System.out.println(maths.multiplication1(5, 6));
+	}
+
+}

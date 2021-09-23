@@ -1,0 +1,17 @@
+package Testing1;
+
+import testing.Access;
+
+public class Modifiers extends Access {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Modifiers access = new Modifiers();
+		System.out.println( access.Addition3());
+	    // System.out.println(access.substraction3());
+	     //System.out.println(access.multiplication3());
+	     System.out.println(access.Division3());
+
+	}
+
+}
