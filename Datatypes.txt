@@ -1,0 +1,36 @@
+package Testing1;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//2.Create 2 strings(vijay,Bhaskar) and compare their address and content
+		String v="vijay";
+		String v1="Bhaskar";
+		String s1=new String("Bhaskar");
+		
+		if ( v==s1) {
+			  System.out.println("true");
+		}
+		else
+		{
+			System.out.println("false");
+		}
+		System.out.println(v);
+		System.out.println(s1);
+		
+		if(v1.equals(s1)) {
+			System.out.println("Are equal");
+		}
+		else {
+			System.out.println("Are not equal");
+		}
+		//1.Create 2 strings and append them and return the append string
+		  StringBuffer sbf=new StringBuffer("In java append are two types they are");
+		  System.out.println("Input = "+sbf);
+		  sbf.append("string buffer and string builder");
+		  System.out.println("output =" +sbf);
+
+	}
+
+}
